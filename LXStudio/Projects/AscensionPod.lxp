@@ -1,6 +1,6 @@
 {
   "version": "0.4.1",
-  "timestamp": 1705810053631,
+  "timestamp": 1705810440323,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -3192,7 +3192,7 @@
               "transitionEnabled": true,
               "transitionTimeSecs": 2.0,
               "transitionBlendMode": 0,
-              "focusedPattern": 1,
+              "focusedPattern": 0,
               "triggerPatternCycle": false
             },
             "children": {},
@@ -3229,7 +3229,7 @@
               }
             ],
             "clips": [],
-            "patternIndex": 1,
+            "patternIndex": 0,
             "patterns": [
               {
                 "id": 7908,
@@ -3385,7 +3385,7 @@
               "exp": 0.0
             },
             "children": {},
-            "basis": 0.8267557731723735
+            "basis": 0.9161561394157819
           }
         ],
         "modulations": [
