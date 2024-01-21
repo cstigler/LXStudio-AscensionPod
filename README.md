@@ -58,8 +58,9 @@ Charlie's computer couldn't get the custom LXStudio UI working for some reason, 
 
 # How to output > 170 LEDs on a single channel
 The maximum channels in a universe is 512. So for RGB, that's `floor(512/3) == 170`. To handle this with LXStudio and the Chroma Tech Controller, do the following:
-LXStudio: LXStudio seems to overflow naturally. So just put > 170 points for a fixture. Say you're using universe 10 with 200 points. LXStudio will map that to universe 10 of 170 points, and universe 11 of 30 points. Note that you'll get errors if you try to use universe 11 without that 30 offset, then.
+LXStudio - LXStudio seems to overflow naturally. So just put > 170 points for a fixture. Say you're using universe 10 with 200 points. LXStudio will map that to universe 10 of 170 points, and universe 11 of 30 points. Note that you'll get errors if you try to use universe 11 without that 30 offset, then.
 
-Chroma Tech Controller: Do something like this:
+Chroma Tech Controller - Do something like this:
 <img width="773" alt="image" src="https://github.com/cstigler/LXStudio-AscensionPod/assets/442311/12518706-c9b6-4df3-8062-c2854bf3d74a">
 
+Note that the offset is referencing the offset of the LEDS in the channel, not the offset of the universe!
