@@ -1,6 +1,6 @@
 {
   "version": "0.4.1",
-  "timestamp": 1705809292166,
+  "timestamp": 1705810053631,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -3192,7 +3192,7 @@
               "transitionEnabled": true,
               "transitionTimeSecs": 2.0,
               "transitionBlendMode": 0,
-              "focusedPattern": 0,
+              "focusedPattern": 1,
               "triggerPatternCycle": false
             },
             "children": {},
@@ -3229,7 +3229,7 @@
               }
             ],
             "clips": [],
-            "patternIndex": 0,
+            "patternIndex": 1,
             "patterns": [
               {
                 "id": 7908,
@@ -3286,8 +3286,8 @@
                   "label": "Ring",
                   "recall": false,
                   "sweepPeriod": 2500.999946333468,
-                  "ringDistance": 0.47000000067055225,
-                  "width": 0.25196850299835205,
+                  "ringDistance": 0.5,
+                  "width": 0.34645670652389526,
                   "fade": 0.06999999843537807,
                   "myColor/brightness": 100.0,
                   "myColor/saturation": 100.0,
@@ -3385,7 +3385,7 @@
               "exp": 0.0
             },
             "children": {},
-            "basis": 0.013875467378378022
+            "basis": 0.8267557731723735
           }
         ],
         "modulations": [
