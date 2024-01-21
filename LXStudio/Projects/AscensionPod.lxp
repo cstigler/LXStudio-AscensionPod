@@ -1,6 +1,6 @@
 {
   "version": "0.4.1",
-  "timestamp": 1705808656114,
+  "timestamp": 1705809292166,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -2568,7 +2568,7 @@
               "selected": false,
               "enabled": true,
               "cue": false,
-              "fader": 0.0,
+              "fader": 1.0,
               "crossfadeGroup": 0,
               "blendMode": 0,
               "midiMonitor": false,
@@ -2778,7 +2778,7 @@
               "selected": false,
               "enabled": true,
               "cue": false,
-              "fader": 0.27559053897857666,
+              "fader": 0.0,
               "crossfadeGroup": 0,
               "blendMode": 0,
               "midiMonitor": false,
@@ -3192,7 +3192,7 @@
               "transitionEnabled": true,
               "transitionTimeSecs": 2.0,
               "transitionBlendMode": 0,
-              "focusedPattern": 1,
+              "focusedPattern": 0,
               "triggerPatternCycle": false
             },
             "children": {},
@@ -3229,7 +3229,7 @@
               }
             ],
             "clips": [],
-            "patternIndex": 1,
+            "patternIndex": 0,
             "patterns": [
               {
                 "id": 7908,
@@ -3287,7 +3287,7 @@
                   "recall": false,
                   "sweepPeriod": 2500.999946333468,
                   "ringDistance": 0.47000000067055225,
-                  "width": 0.25984251499176025,
+                  "width": 0.25196850299835205,
                   "fade": 0.06999999843537807,
                   "myColor/brightness": 100.0,
                   "myColor/saturation": 100.0,
@@ -3385,7 +3385,7 @@
               "exp": 0.0
             },
             "children": {},
-            "basis": 0.12252807654801734
+            "basis": 0.013875467378378022
           }
         ],
         "modulations": [
