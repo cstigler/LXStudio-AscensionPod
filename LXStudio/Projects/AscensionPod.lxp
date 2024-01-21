@@ -1,6 +1,6 @@
 {
   "version": "0.4.1",
-  "timestamp": 1705802147658,
+  "timestamp": 1705804019530,
   "model": {
     "id": 2,
     "class": "heronarts.lx.structure.LXStructure",
@@ -815,7 +815,7 @@
           "scene-5": false,
           "crossfader": 0.508474575355649,
           "crossfaderBlendMode": 0,
-          "focusedChannel": 0,
+          "focusedChannel": 20,
           "cueA": false,
           "cueB": false,
           "viewCondensed": false
@@ -848,10 +848,10 @@
             "parameters": {
               "label": "pre-ctn1",
               "arm": false,
-              "selected": true,
+              "selected": false,
               "enabled": true,
               "cue": false,
-              "fader": 0.0,
+              "fader": 1.0,
               "crossfadeGroup": 1,
               "blendMode": 0,
               "midiMonitor": false,
@@ -1913,7 +1913,7 @@
               "selected": false,
               "enabled": true,
               "cue": false,
-              "fader": 1.0,
+              "fader": 0.0,
               "crossfadeGroup": 0,
               "blendMode": 0,
               "midiMonitor": false,
@@ -1970,7 +1970,7 @@
               "selected": false,
               "enabled": true,
               "cue": false,
-              "fader": 0.6672666035592556,
+              "fader": 1.0,
               "crossfadeGroup": 0,
               "blendMode": 0,
               "midiMonitor": false,
@@ -2039,7 +2039,7 @@
               "selected": false,
               "enabled": true,
               "cue": false,
-              "fader": 0.7285714354366064,
+              "fader": 0.7857142901048064,
               "crossfadeGroup": 0,
               "blendMode": 0,
               "midiMonitor": false,
@@ -2835,7 +2835,7 @@
               "selected": false,
               "enabled": true,
               "cue": false,
-              "fader": 0.22047244012355804,
+              "fader": 1.0,
               "crossfadeGroup": 0,
               "blendMode": 0,
               "midiMonitor": false,
@@ -2871,7 +2871,7 @@
                   "recall": false,
                   "Radius": 0.05999999865889549,
                   "LinkSize": 0.03999999910593033,
-                  "Speed": 0.05000000074505806
+                  "Speed": 0.2499999962747097
                 },
                 "children": {
                   "modulation": {
@@ -2907,7 +2907,7 @@
               "selected": false,
               "enabled": true,
               "cue": false,
-              "fader": 0.571428569033742,
+              "fader": 0.5285714259371161,
               "crossfadeGroup": 0,
               "blendMode": 0,
               "midiMonitor": false,
@@ -3175,7 +3175,7 @@
             "parameters": {
               "label": "e1",
               "arm": false,
-              "selected": false,
+              "selected": true,
               "enabled": true,
               "cue": false,
               "fader": 0.0,
@@ -3192,7 +3192,7 @@
               "transitionEnabled": true,
               "transitionTimeSecs": 2.0,
               "transitionBlendMode": 0,
-              "focusedPattern": 1,
+              "focusedPattern": 0,
               "triggerPatternCycle": false
             },
             "children": {},
@@ -3229,7 +3229,7 @@
               }
             ],
             "clips": [],
-            "patternIndex": 1,
+            "patternIndex": 0,
             "patterns": [
               {
                 "id": 7908,
@@ -3286,8 +3286,8 @@
                   "label": "Ring",
                   "recall": false,
                   "sweepPeriod": 2500.999946333468,
-                  "ringDistance": 0.5,
-                  "width": 0.08999999798834324,
+                  "ringDistance": 0.47000000067055225,
+                  "width": 1.0,
                   "fade": 0.06999999843537807,
                   "myColor/brightness": 100.0,
                   "myColor/saturation": 100.0,
@@ -3385,7 +3385,7 @@
               "exp": 0.0
             },
             "children": {},
-            "basis": 0.5419487391608389
+            "basis": 0.601618568853696
           }
         ],
         "modulations": [
